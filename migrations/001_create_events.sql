@@ -1,0 +1,5 @@
+CREATE TABLE events (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  total_seats INT NOT NULL
+);
